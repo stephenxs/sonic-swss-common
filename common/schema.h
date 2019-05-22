@@ -40,6 +40,7 @@ namespace swss {
 #define APP_VXLAN_TUNNEL_MAP_TABLE_NAME "VXLAN_TUNNEL_MAP_TABLE"
 #define APP_VXLAN_TUNNEL_TABLE_NAME     "VXLAN_TUNNEL_TABLE"
 
+#define APP_TX_ERR_TABLE_NAME           "TX_ERR_APPL"
 /***** TO BE REMOVED *****/
 
 #define APP_TC_TO_QUEUE_MAP_TABLE_NAME  "TC_TO_QUEUE_MAP_TABLE"
@@ -178,6 +179,7 @@ namespace swss {
 #define CFG_VNET_TABLE_NAME                         "VNET"
 #define CFG_NEIGH_TABLE_NAME                        "NEIGH"
 
+#define CFG_PORT_TX_ERR_TABLE_NAME                  "TX_ERR_CFG"
 /***** STATE DATABASE *****/
 
 #define STATE_SWITCH_CAPABILITY_TABLE_NAME          "SWITCH_CAPABILITY_TABLE"
@@ -195,6 +197,7 @@ namespace swss {
 #define STATE_VXLAN_TABLE_NAME                      "VXLAN_TABLE"
 #define STATE_MIRROR_SESSION_TABLE_NAME             "MIRROR_SESSION_TABLE"
 
+#define STATE_TX_ERR_TABLE_NAME                     "TX_ERR_STATE"
 /***** MISC *****/
 
 #define IPV4_NAME "IPv4"
