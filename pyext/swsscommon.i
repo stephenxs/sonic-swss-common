@@ -37,6 +37,7 @@
 #include "logger.h"
 #include "configdb.h"
 #include "status_code_util.h"
+#include "restart_waiter.h"
 %}
 
 %include <std_string.i>
@@ -217,3 +218,4 @@ T castSelectableObj(swss::Selectable *temp)
 %include "dbinterface.h"
 %include "logger.h"
 %include "status_code_util.h"
+%include "restart_waiter.h"

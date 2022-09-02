@@ -38,6 +38,7 @@ tests_SOURCES = redis_ut.cpp                \
                 countertable_ut.cpp         \
                 timer_ut.cpp                \
                 cli_ut.cpp                  \
+                restart_waiter_ut.cpp       \
                 main.cpp
 
 tests_CFLAGS = $(DBGFLAGS) $(AM_CFLAGS) $(CFLAGS_COMMON) $(CFLAGS_GTEST) $(LIBNL_CFLAGS)
