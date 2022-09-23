@@ -1,3 +1,4 @@
+#include <queue>
 #include "restart_waiter.h"
 #include "redispipeline.h"
 #include "select.h"
